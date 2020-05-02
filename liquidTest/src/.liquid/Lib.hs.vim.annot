@@ -1,0 +1,4 @@
+1:1-1:1::Lib.$trModule :: "GHC.Types.Module"
+6:1-6:6::Lib.myDiv :: "GHC.Types.Int -> {VV : GHC.Types.Int | VV /= 0} -> GHC.Types.Int"
+9:1-9:9::Lib.someFunc :: "(GHC.Types.IO ())"
+9:21-9:31::lq_anf$##7205759403792796656 :: "[GHC.Types.Char]"
