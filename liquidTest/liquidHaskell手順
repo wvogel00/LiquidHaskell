@@ -1,0 +1,19 @@
+z3 install
+brew install z3
+z3 --version (2020.5.2で4.8.7)
+
+#liquid haskell install
+git clone --recursive git@github.com:ucsd-progsys/liquidhaskell.git
+cd liquidhaskell
+stack install
+
+pathの追加が未設定の場合
+vim ~/.bash+profile
+export PATH=$PATH:liquidのあるパス
+のように追加
+
+liquidコマンドを打って登録されているか確認する．
+ファイル内の関数の安全性を確認するコマンド
+liquid file.hs
+
+stack exec -- liquid
